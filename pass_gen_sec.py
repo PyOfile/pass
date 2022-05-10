@@ -4,7 +4,7 @@ from time import sleep
 
 x = input('PW Mnemonic ID: ')
 
-path = './.py_scripts/pass_gen/.later_retrieval.log'
+path = '.later_retrieval.log'
 later = open(path, 'a')
 
 characters = string.ascii_letters + string.digits + string.punctuation
