@@ -1,1 +1,1 @@
-gnome-terminal -- python ~/.py_scripts/pass_gen/pass_gen_sec.py ~/.py_scripts/pass_gen/env/bin/python
+python pass_gen_sec.py env/bin/python
