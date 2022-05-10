@@ -1,13 +1,13 @@
-read -p "Enter your choice [A/B]: " choice
+read -p "Enter your choice [A] for a limited password, [B] for a longer one: " choice
  
 case $choice in
      A)
           echo "Limited Password Choice!"
-          sh ~/.py_scripts/pass_gen/pass.sh
+          sh pass.sh
           ;;
      B)
           echo "Stronger Password Choice!"
-          sh ~/.py_scripts/pass_gen/pass_sec.sh
+          sh pass_sec.sh
           ;;
      *)
           echo "Sorry, invalid input"
